@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RotateBarrel : MonoBehaviour
+public class AimAtMouse : MonoBehaviour
 {
-
-
     private void Update() {
         Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
